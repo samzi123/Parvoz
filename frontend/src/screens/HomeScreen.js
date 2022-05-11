@@ -1,5 +1,6 @@
 import React from 'react'
 import Opportunity from './../components/Opportunity'
+import OpportunityWide from './../components/OpportunityWide'
 import opportunities from '../OpportunitiesJSON'
 import { FaArrowRight } from 'react-icons/fa';
 
@@ -13,10 +14,10 @@ var opportunitiesTop = opportunities.slice(0,3)
             <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
               <div className="lg:flex">
                 <div className="lg:w-1/2">
-                <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 mb-4">Connecting you with opportunities</h1>
+                <h1 className="text-4xl font-extrabold tracking-tight text-gray-200 mb-4">Connecting you with opportunities</h1>
 
                 {/* <h1 className="font-bold text-lg"></h1> */}
-                <p>Parvoz helps connect the youth in Tajikistan with top educational opportunities. 
+                <p className="text-gray-200">Parvoz helps connect the youth in Tajikistan with top educational opportunities. 
                   We believe in a bright future for the country, and the youth will help make that happen!
                 </p>
                 </div>
@@ -24,7 +25,7 @@ var opportunitiesTop = opportunities.slice(0,3)
                   <Opportunity opportunity={opportunities[0]} className="min-w-full"/>
                 </div>
               </div>
-                <h1 className="text-3xl font-extrabold tracking-tight text-gray-900 mb-8">Recent Opportunities Posted</h1>
+                <h1 className="text-3xl font-extrabold tracking-tight text-gray-200 mb-8">Recent Opportunities Posted</h1>
 
                 <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
                 {opportunitiesTop.map((opportunity) => (
@@ -32,6 +33,10 @@ var opportunitiesTop = opportunities.slice(0,3)
                 ))}
                 </div>
                 <a href='/opportunities' className="flex items-center justify-center mt-6 text-lg">View more opportunities <FaArrowRight className="ml-2"/></a>
+         
+                <h1 className="text-3xl font-extrabold tracking-tight text-gray-200 mb-8">Most Popular Courses</h1>
+                <Opportunity opportunity={opportunities[3]} className="min-w-full"/>
+
             </div>
         </div>
     
