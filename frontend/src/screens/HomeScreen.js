@@ -28,14 +28,15 @@ var opportunitiesTop = opportunities.slice(0,3)
                 <h1 className="text-3xl font-extrabold tracking-tight text-gray-200 mb-8">Recent Opportunities Posted</h1>
 
                 <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3 lg:gap-x-8">
-                {opportunitiesTop.map((opportunity) => (
-                   <Opportunity opportunity={opportunity}/>
-                ))}
+                    {opportunitiesTop.map((opportunity) => (
+                      <Opportunity opportunity={opportunity}/>
+                    ))}
+                    
                 </div>
-                <a href='/opportunities' className="flex items-center justify-center mt-6 text-lg">View more opportunities <FaArrowRight className="ml-2"/></a>
+                <a href='/opportunities' className="flex items-center justify-center mt-6 text-lg text-gray-200">View more opportunities <FaArrowRight className="ml-2"/></a>
          
                 <h1 className="text-3xl font-extrabold tracking-tight text-gray-200 mb-8">Most Popular Courses</h1>
-                <Opportunity opportunity={opportunities[3]} className="min-w-full"/>
+                <OpportunityWide opportunity={opportunities[3]} className="min-w-full"/>
 
             </div>
         </div>
