@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import OpportunitiesScreen from './screens/OpportunitiesScreen'
 import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -13,6 +13,7 @@ function App() {
     <Router>
     <Routes>
     <Route path='/' element={<HomeScreen/>}/>
+    <Route path='/opportunities' element={<OpportunitiesScreen/>}/>
      </Routes>
      </Router>
      <Footer/>
