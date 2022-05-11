@@ -43,13 +43,43 @@ const opportunities = [
     category: 'course',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Tech Girls',
     href: 'https://techgirlsglobal.org/',
     description:
       'International summer exchange program for young women to pursue careers in science and tech',
     notes: 'An opportunity for girls in tech and science',
     imageAlt: 'Ilmhona Skills Accelerator',
+    imageSrc: require('./images/ilmhona.jpeg'),
+    category: 'course',
+  },
+  {
+    id: 6,
+    name: 'Northwestern Uni Pre-College ',
+    href: 'https://globalscholars.yale.edu/',
+    description: 'Pre-College Programs for high-school students',
+    imageAlt: 'Northwestern Uni Pre-College',
+    imageSrc: require('./images/ilmhona.jpeg'),
+    category: 'course',
+  },
+  {
+    id: 7,
+    name: 'Rise',
+    href: 'https://www.risefortheworld.org/',
+    description:
+      'Program that supports brilliant people for life as they serve others',
+    imageAlt: 'Rise',
+    imageSrc: require('./images/ilmhona.jpeg'),
+    category: 'course',
+  },
+
+  {
+    id: 8,
+    name: 'Rise',
+    href: 'https://www.risefortheworld.org/',
+    description:
+      'Program that supports brilliant people for life as they serve others',
+    imageAlt: 'Rise',
     imageSrc: require('./images/ilmhona.jpeg'),
     category: 'course',
   },
