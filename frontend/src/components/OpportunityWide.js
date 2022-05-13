@@ -4,7 +4,7 @@ const OpportunityWide = ({ opportunity }) => {
     return (
         <a href={opportunity.href}>
 
-        <div className="flex flex-col w-full justify-left">
+        <div className="w-full justify-left">
         <div
         key={opportunity.id}
         className="bg-white border border-gray-200 rounded-lg overflow-hidden justify-left text-left items-left justify-left inline-block"

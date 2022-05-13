@@ -47,19 +47,20 @@ const opportunities = [
     name: 'Tech Girls',
     href: 'https://techgirlsglobal.org/',
     description:
-      'International summer exchange program for young women to pursue careers in science and tech',
+      'Fully funded international summer exchange program for young women to pursue careers in science and tech',
     notes: 'An opportunity for girls in tech and science',
     imageAlt: 'Ilmhona Skills Accelerator',
-    imageSrc: require('./images/ilmhona.jpeg'),
+    imageSrc: require('./images/techgirls.jpeg'),
     category: 'course',
   },
   {
     id: 6,
-    name: 'Northwestern Uni Pre-College ',
+    name: 'Yale Young Global Scholars',
     href: 'https://globalscholars.yale.edu/',
-    description: 'Pre-College Programs for high-school students',
-    imageAlt: 'Northwestern Uni Pre-College',
-    imageSrc: require('./images/ilmhona.jpeg'),
+    description: 'Pre-College Programs for high-school students to study at Yale University for 2 weeks.',
+    notes: 'Funding available',
+    imageAlt: 'YYGS',
+    imageSrc: require('./images/YYGS.png'),
     category: 'course',
   },
   {
@@ -69,7 +70,8 @@ const opportunities = [
     description:
       'Program that supports brilliant people for life as they serve others',
     imageAlt: 'Rise',
-    imageSrc: require('./images/ilmhona.jpeg'),
+    notes: 'Funding available',
+    imageSrc: require('./images/rise.png'),
     category: 'course',
   },
 
@@ -79,8 +81,9 @@ const opportunities = [
     href: 'https://www.risefortheworld.org/',
     description:
       'Program that supports brilliant people for life as they serve others',
-    imageAlt: 'Rise',
-    imageSrc: require('./images/ilmhona.jpeg'),
+    imageAlt: 'Rise',   
+    notes: 'Funding available',
+    imageSrc: require('./images/rise.png'),
     category: 'course',
   },
 ]
