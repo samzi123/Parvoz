@@ -45,7 +45,8 @@ const opportunities = [
     id: 5,
     name: 'AKHP Debate Club',
     href: 'https://www.facebook.com/groups/akhpdebateclub/',
-    description: 'Official Facebook page of one of the best debates club in the country',
+    description:
+      'Official Facebook page of one of the best debates club in the country',
     notes: 'Anyone with some knowledge of English and Russian',
     imageAlt: 'AKHP',
     imageSrc: require('./images/CABAR.jpg'),
@@ -95,7 +96,8 @@ const opportunities = [
     id: 10,
     name: '2022 Central Asian Journalism Summer Institute - Application Open',
     href: 'https://www.meridian.org/announcement/2022-central-asian-journalism-summer-institute/',
-    description: 'Opportunity for citizens of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, or Uzbekistan',
+    description:
+      'Opportunity for citizens of Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, or Uzbekistan',
     notes: '18 to 30 years of age on June 13, 2022',
     imageAlt: 'Journalism Summer Institute',
     imageSrc: require('./images/CABAR.jpg'),
@@ -105,7 +107,8 @@ const opportunities = [
     id: 11,
     name: 'Yale Global Scholars',
     href: 'https://globalscholars.yale.edu/',
-    description: 'Opportunity for talented international high school students to apply',
+    description:
+      'Opportunity for talented international high school students to apply',
     notes: 'Yale University',
     imageAlt: 'Journalism Summer Institute',
     imageSrc: require('./images/CABAR.jpg'),
@@ -115,23 +118,13 @@ const opportunities = [
     id: 12,
     name: 'Y-Peer',
     href: 'http://y-peer.tj/about-us/',
-    description: 'Opportunity for talented international high school students to apply',
+    description:
+      'Opportunity for talented international high school students to apply',
     notes: '18 to 30 years of age on June 13, 2022',
     imageAlt: 'Journalism Summer Institute',
     imageSrc: require('./images/CABAR.jpg'),
     category: 'course',
   },
-
-  
-
-
-  
-  
-  
-    
-  
-
-
 ]
 
 export default opportunities

@@ -77,7 +77,7 @@ const Footer = () => {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-center text-base text-gray-200">&copy; 2022 Parvos, Inc. All rights reserved.</p>
+          <p className="text-center text-base text-gray-200">&copy; 2022 Parvoz, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>  )

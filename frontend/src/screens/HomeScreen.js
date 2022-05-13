@@ -43,18 +43,18 @@ const HomeScreen = () => {
           </div>
           <a
             href='/opportunities'
-            className='flex items-center justify-center mt-6 text-lg text-gray-200'
+            className='flex items-center justify-center mt-6 text-xl font-bold text-gray-200'
           >
             View more opportunities <FaArrowRight className='ml-2' />
           </a>
 
-          <h1 className='text-3xl font-extrabold tracking-tight text-gray-200 mb-8'>
+          {/* <h1 className='text-3xl font-extrabold tracking-tight text-gray-200 mb-8'>
             Most Popular Courses
           </h1>
           <OpportunityWide
             opportunity={opportunities[3]}
             className='min-w-full'
-          />
+          /> */}
         </div>
       </div>
     </>

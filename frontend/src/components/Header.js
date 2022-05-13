@@ -3,7 +3,6 @@ import React from 'react'
 //links for the header
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Courses', href: '/courses' },
   { name: 'Opportunities', href: '/opportunities' },
   { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
@@ -27,7 +26,7 @@ const Header = () => {
 
            <div className="hidden ml-10 space-x-8 lg:block">
                 <h2 className="text-base font-medium text-white hover:text-indigo-50">
-                  Parvos
+                  Parvoz
                 </h2>
            </div>
         </a>
