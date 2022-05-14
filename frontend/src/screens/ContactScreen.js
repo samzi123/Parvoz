@@ -110,7 +110,7 @@ const ContactScreen = () => {
                   </defs>
                 </svg>
               </div>
-              <h3 className='text-lg font-medium text-white'>Contact us</h3>
+              <h3 className='text-lg font-medium text-white'>Contact us!!!</h3>
               <p className='mt-6 text-base text-indigo-50 max-w-3xl'>
                 Let us know about a new educational opportunity that you think
                 others may find valuable. We personally review each submission,
