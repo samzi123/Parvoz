@@ -125,6 +125,17 @@ const opportunities = [
     imageSrc: require('./images/CABAR.jpg'),
     category: 'course',
   },
+  {
+    id: 12,
+    name: 'Y-Peer',
+    href: 'http://y-peer.tj/about-us/',
+    description:
+      'Opportunity for talented international high school students to apply',
+    notes: '18 to 30 years of age on June 13, 2022',
+    imageAlt: 'Journalism Summer Institute',
+    imageSrc: require('./images/CABAR.jpg'),
+    category: 'course',
+  },
 ]
 
 export default opportunities
