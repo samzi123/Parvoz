@@ -38,7 +38,7 @@ const opportunities = [
     description: 'Exchange Program for Tajik high school students in the U.S.',
     notes: 'Grade 11 only',
     imageAlt: 'Media School CABAR Asia',
-    imageSrc: require('./images/CABAR.jpg'),
+    imageSrc: require('AC+Field+Office+Logo_Tajikistan.png'),
     category: 'course',
   },
   {
@@ -49,7 +49,7 @@ const opportunities = [
       'Official Facebook page of one of the best debates club in the country',
     notes: 'Anyone with some knowledge of English and Russian',
     imageAlt: 'AKHP',
-    imageSrc: require('./images/CABAR.jpg'),
+    imageSrc: require('39193604_2251029375183905_622698222728511488_n.jpeg'),
     category: 'course',
   },
   {
@@ -59,7 +59,7 @@ const opportunities = [
     description: 'Global Students Exchange Program',
     notes: 'University Students with knowledge of English',
     imageAlt: 'UGRAD',
-    imageSrc: require('./images/CABAR.jpg'),
+    imageSrc: require('.dos-logo-light.webp'),
     category: 'course',
   },
   {
